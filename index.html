@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시노펙스 뉴스</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin: 0;
+        }
+
+        .meta-info {
+            font-size: 1.1em;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .content h2 {
+            font-size: 1.8em;
+            color: #004085;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .content h3 {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #0056b3;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            border-left: 4px solid #007bff;
+            padding-left: 10px;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .quote {
+            background-color: #f0f8ff;
+            border-left: 4px solid #007bff;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #444;
+            border-radius: 4px;
+        }
+
+        .quote p {
+            margin: 0;
+            text-align: justify;
+        }
+
+        .quote-author {
+            text-align: right;
+            font-style: normal;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .highlight-box {
+            background-color: #e6f7ff;
+            border: 1px solid #b3e0ff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .highlight-box p {
+            margin: 0;
+        }
+
+        .strong-highlight {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .article-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .post-navigation {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .post-link {
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            background-color: #f0f0f0;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #333;
+            font-size: 0.95em;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .post-link:hover {
+            background-color: #e0e0e0;
+            color: #007bff;
+        }
+
+        .post-link .arrow {
+            font-size: 1.2em;
+            color: #007bff;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .post-link.prev {
+            justify-content: flex-start;
+        }
+
+        .post-link.next {
+            justify-content: flex-end;
+        }
+
+        .post-link.prev .arrow {
+            transform: none;
+            margin-left: -5px;
+        }
+
+        .post-link.next .arrow {
+            transform: none;
+            margin-right: -5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>시노펙스, 日 국제학회에서 혈액투석 제품 및 임상 결과 소개!</h1>
+        <p class="meta-info">시노펙스 ・ 6시간 전</p>
+    </div>
+
+    <div class="content">
+        <h2>일본 국제학회에서 시노펙스 혈액투석 제품과 임상 결과 공식 발표</h2>
+        <ul>
+            <li>일본 사이타마현에서 개최된 JSHHD(국제재택혈액투석학회)</li>
+            <li>한국, 영국, 호주, 대만 등 약 10여 개 국가에서 전문의 600여 명 참가</li>
+            <li>상계백병원 김성근 교수가 시노펙스 제품과 임상 결과 소개</li>
+        </ul>
+        
+        <img src="" alt="시노펙스 후원 세션 발표자들과 기념촬영" class="article-image">
+        
+        <p>시노펙스의 재택 혈액투석 관련 제품과 혈액여과기의 임상결과가 일본 사이타마현에서 개최된 ‘국제재택혈액투석학회(JSHHD)’에서 공식적으로 소개되었습니다.</p>
+        
+        <p>9월 6일부터 8일까지 3일간 진행된 JSHHD는 미래 지향적인 치료법인 ‘재택 혈액투석’ 관련 학회로, 한국, 일본, 영국, 호주, 대만 등 약 10개국에서 600여 명의 대학교수와 전문의가 참여한 국제 규모 행사입니다.</p>
+        
+        <img src="" alt="인제대 김성근 교수가 시노펙스 제품을 설명하는 모습" class="article-image">
+        
+        <p>이번 학회는 대한신장학회가 주관하고 시노펙스가 후원하는 세션으로, △이동형 혈액투석 기기의 국산화 현황과 국산화 혈액여과기(Synoflux®)의 임상 결과(인제대 상계백병원 김성근 교수)가 발표되어 큰 관심을 받았습니다. 시노펙스 혈액여과기의 임상결과는 SCI급 논문 게재 이후 국제학회에서 처음으로 공식 발표된 것입니다.</p>
+
+        <h3>시노펙스 혈액투석 제품 현황</h3>
+        <p>이날 소개된 시노펙스 이동형 혈액투석기 제품군은 **△이동형 인공신장기, △혈액여과기, △이동형 인공신장기용 정수기**입니다. 이 제품들은 '범부처전주기의료기기연구개발사업단(KMDF)'이 재택 혈액투석을 염두에 두고 2024년 10대 대표 과제로 선정하여 지속적으로 지원하고 있습니다.</p>
+        
+        <ul>
+            <li>**이동형 인공신장기**: 개발을 마치고 공식 등록을 위한 성능 테스트를 진행 중이며, 올해 연말까지 식약처에 인증 신청을 접수할 계획입니다.</li>
+            <li>**혈액여과기**: 식약처 인증을 받고 국내 병원에 공급을 시작했으며, 해외 시장 진출을 위해 CE MDR 규정에 맞춘 임상을 성공적으로 마무리하고 제품 허가 신청을 준비하고 있습니다.</li>
+            <li>**이동형 인공신장기용 정수기**: 공식 성능 테스트를 완료하고 기술문서 작성 단계로, 이달 내로 인증 접수를 마무리할 예정입니다.</li>
+        </ul>
+        
+        <p>현재 미국, 캐나다, 호주, 일본 등 일부 선진국에서는 투석 환자의 심리적 안정과 편의를 위해 재택 혈액투석이 이루어지고 있으며, 국내에서도 재택혈액투석연구회를 중심으로 관련 법 개정, 국가적 시범사업 마련 등 다양한 사전 준비가 진행되고 있습니다.</p>
+        
+        <div class="quote">
+            <p>시노펙스 인공신장사업본부 이진태 본부장은 "국내 유일의 혈액투석 관련 핵심 의료기기 제조 기업인 시노펙스 제품에 대해 각국 의료진의 관심과 문의가 많았다"며, "특히 이번 학회를 통해 SCI급 국제학술지에 게재된 시노펙스 혈액여과기와 독일의 최신 제품을 비교한 임상 논문에 대해 실제 임상을 진행한 김성근 교수가 직접 설명하여 시노펙스의 기술력이 해외 선진 기업과 동등한 수준에 올라 있음을 각국의 의료진에게 알리는 좋은 계기가 됐다"고 밝혔습니다.</p>
+        </div>
+        
+        <p>시노펙스는 앞으로도 국내외 학술대회에 적극적으로 참가하여 혈액투석 제품의 우수한 품질과 제조 기술을 알리는 활동을 지속할 계획입니다.</p>
+    </div>
+    
+    <div class="post-navigation">
+        <a href="#" class="post-link prev"><span class="arrow">▲</span> 이전글 시노펙스, 랩온어칩 혈구분석 카트리지 특허 출원!</a>
+        <a href="#" class="post-link next">다음글 시노펙스, 2025 국제환경에너지산업전 참가 <span class="arrow">▼</span></a>
+    </div>
+
+</div>
+
+</body>
+</html>
